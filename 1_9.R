@@ -97,3 +97,4 @@ library("ggplot2")
 d <- diamonds
 ggplot(d, aes(x = color, fill = cut)) +
   geom_bar(position=position_dodge())
+
